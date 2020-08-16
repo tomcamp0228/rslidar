@@ -13,3 +13,4 @@ version.h
 *.pb.cc
 *.pb.h
 install
+log
