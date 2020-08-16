@@ -1,0 +1,1295 @@
+[0.000000] (-) TimerEvent: {}
+[0.000309] (rslidar_msg) JobQueued: {'identifier': 'rslidar_msg', 'dependencies': OrderedDict()}
+[0.000489] (rslidar_sdk) JobQueued: {'identifier': 'rslidar_sdk', 'dependencies': OrderedDict([('rslidar_msg', '/home/tom/rslidar_ws/install/rslidar_msg')])}
+[0.000587] (rslidar_msg) JobStarted: {'identifier': 'rslidar_msg'}
+[0.099409] (-) TimerEvent: {}
+[0.143732] (rslidar_msg) JobProgress: {'identifier': 'rslidar_msg', 'progress': 'cmake'}
+[0.144794] (rslidar_msg) Command: {'cmd': ['/usr/local/bin/cmake', '/home/tom/rslidar_ws/src/rslidar_msg', '-DCMAKE_INSTALL_PREFIX=/home/tom/rslidar_ws/install/rslidar_msg'], 'cwd': '/home/tom/rslidar_ws/build/rslidar_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tom'), ('LANGUAGE', 'zh_CN:en_US:en'), ('LC_TIME', 'zh_CN.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '4638'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/usr/local/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib:/usr/local/cuda-10.0/lib64:'), ('SHLVL', '1'), ('OLDPWD', '/home/tom/rslidar_ws/src'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/tom'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '4414'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d9d5dc54b66e188a510ae9fc5f392c26'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'tom'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '9:52540'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig::/usr/local/lib/pkgconfig'), ('USERNAME', 'tom'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/cuda-10.0/bin:/home/tom/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '0bcb4900aef74c3890002489bae9133a'), ('PAPERSIZE', 'a4'), ('SESSION_MANAGER', 'local/tom-Laptop:@/tmp/.ICE-unix/4548,unix/tom-Laptop:/tmp/.ICE-unix/4548'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/056e7bdf_e991_4620_80a5_ee165cd7057d'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.88'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/tom/rslidar_ws/build/rslidar_msg'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d9d5dc54b66e188a510ae9fc5f392c26'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[0.220747] (-) TimerEvent: {}
+[0.321747] (-) TimerEvent: {}
+[0.422887] (-) TimerEvent: {}
+[0.523591] (-) TimerEvent: {}
+[0.624189] (-) TimerEvent: {}
+[0.724832] (-) TimerEvent: {}
+[0.825548] (-) TimerEvent: {}
+[0.926152] (-) TimerEvent: {}
+[1.026930] (-) TimerEvent: {}
+[1.127613] (-) TimerEvent: {}
+[1.228272] (-) TimerEvent: {}
+[1.329091] (-) TimerEvent: {}
+[1.429761] (-) TimerEvent: {}
+[1.530390] (-) TimerEvent: {}
+[1.626916] (rslidar_msg) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[1.630525] (-) TimerEvent: {}
+[1.730900] (-) TimerEvent: {}
+[1.831563] (-) TimerEvent: {}
+[1.932209] (-) TimerEvent: {}
+[2.032766] (-) TimerEvent: {}
+[2.133142] (-) TimerEvent: {}
+[2.233786] (-) TimerEvent: {}
+[2.334516] (-) TimerEvent: {}
+[2.435167] (-) TimerEvent: {}
+[2.535893] (-) TimerEvent: {}
+[2.629006] (rslidar_msg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[2.636023] (-) TimerEvent: {}
+[2.736458] (-) TimerEvent: {}
+[2.794842] (rslidar_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.836690] (-) TimerEvent: {}
+[2.937327] (-) TimerEvent: {}
+[3.007553] (rslidar_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.016219] (rslidar_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.035092] (rslidar_msg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.035582] (rslidar_msg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.037402] (-) TimerEvent: {}
+[3.043450] (rslidar_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.128012] (rslidar_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.137496] (rslidar_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.137613] (-) TimerEvent: {}
+[3.137814] (rslidar_msg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.138267] (rslidar_msg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.212728] (rslidar_msg) StdoutLine: {'line': b'-- Found ament_cmake: 0.8.2 (/opt/ros/eloquent/share/ament_cmake/cmake)\n'}
+[3.237856] (-) TimerEvent: {}
+[3.328326] (rslidar_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[3.328485] (rslidar_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.337937] (-) TimerEvent: {}
+[3.438166] (-) TimerEvent: {}
+[3.538478] (-) TimerEvent: {}
+[3.606577] (rslidar_msg) StdoutLine: {'line': b'-- Found std_msgs: 0.8.1 (/opt/ros/eloquent/share/std_msgs/cmake)\n'}
+[3.638674] (-) TimerEvent: {}
+[3.739332] (-) TimerEvent: {}
+[3.772366] (rslidar_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[3.839515] (-) TimerEvent: {}
+[3.940249] (-) TimerEvent: {}
+[4.019597] (rslidar_msg) StdoutLine: {'line': b'-- Found rclcpp: 0.8.4 (/opt/ros/eloquent/share/rclcpp/cmake)\n'}
+[4.040462] (-) TimerEvent: {}
+[4.125725] (rslidar_msg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)\n'}
+[4.140652] (-) TimerEvent: {}
+[4.149700] (rslidar_msg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.178150] (rslidar_msg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.240736] (-) TimerEvent: {}
+[4.341066] (-) TimerEvent: {}
+[4.415500] (rslidar_msg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.415744] (rslidar_msg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.441193] (-) TimerEvent: {}
+[4.492316] (rslidar_msg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[4.492566] (rslidar_msg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[4.541282] (-) TimerEvent: {}
+[4.550861] (rslidar_msg) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[4.551189] (rslidar_msg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[4.641458] (-) TimerEvent: {}
+[4.644594] (rslidar_msg) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[4.646552] (rslidar_msg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.741672] (-) TimerEvent: {}
+[4.842218] (-) TimerEvent: {}
+[4.859293] (rslidar_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 0.8.0 (/opt/ros/eloquent/share/rosidl_default_generators/cmake)\n'}
+[4.942382] (-) TimerEvent: {}
+[5.043094] (-) TimerEvent: {}
+[5.143739] (-) TimerEvent: {}
+[5.244394] (-) TimerEvent: {}
+[5.345125] (-) TimerEvent: {}
+[5.352472] (rslidar_msg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1")  \n'}
+[5.396713] (rslidar_msg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/eloquent/include  \n'}
+[5.445217] (-) TimerEvent: {}
+[5.513408] (rslidar_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") \n'}
+[5.545373] (-) TimerEvent: {}
+[5.645602] (-) TimerEvent: {}
+[5.745828] (-) TimerEvent: {}
+[5.758862] (rslidar_msg) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c\n'}
+[5.778534] (rslidar_msg) StdoutLine: {'line': b'-- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp\n'}
+[5.845923] (-) TimerEvent: {}
+[5.940711] (rslidar_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[5.945365] (rslidar_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.0 (/opt/ros/eloquent/share/python_cmake_module/cmake)\n'}
+[5.945986] (-) TimerEvent: {}
+[6.046350] (-) TimerEvent: {}
+[6.053367] (rslidar_msg) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") \n'}
+[6.054262] (rslidar_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.054925] (rslidar_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m\n'}
+[6.055310] (rslidar_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so\n'}
+[6.109710] (rslidar_msg) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[6.146451] (-) TimerEvent: {}
+[6.246777] (-) TimerEvent: {}
+[6.313108] (rslidar_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.8.1 (/opt/ros/eloquent/share/ament_lint_auto/cmake)\n'}
+[6.346962] (-) TimerEvent: {}
+[6.447504] (-) TimerEvent: {}
+[6.526251] (rslidar_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.530559] (rslidar_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.539995] (rslidar_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.547673] (-) TimerEvent: {}
+[6.648273] (-) TimerEvent: {}
+[6.748934] (-) TimerEvent: {}
+[6.849540] (-) TimerEvent: {}
+[6.861325] (rslidar_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[6.862927] (rslidar_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/tom/rslidar_ws/build/rslidar_msg\n'}
+[6.867802] (rslidar_msg) CommandEnded: {'returncode': 0}
+[6.868657] (rslidar_msg) JobProgress: {'identifier': 'rslidar_msg', 'progress': 'build'}
+[6.870182] (rslidar_msg) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/tom/rslidar_ws/build/rslidar_msg', '--', '-j12', '-l12'], 'cwd': '/home/tom/rslidar_ws/build/rslidar_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tom'), ('LANGUAGE', 'zh_CN:en_US:en'), ('LC_TIME', 'zh_CN.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '4638'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/usr/local/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib:/usr/local/cuda-10.0/lib64:'), ('SHLVL', '1'), ('OLDPWD', '/home/tom/rslidar_ws/src'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/tom'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '4414'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d9d5dc54b66e188a510ae9fc5f392c26'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'tom'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '9:52540'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig::/usr/local/lib/pkgconfig'), ('USERNAME', 'tom'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/cuda-10.0/bin:/home/tom/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '0bcb4900aef74c3890002489bae9133a'), ('PAPERSIZE', 'a4'), ('SESSION_MANAGER', 'local/tom-Laptop:@/tmp/.ICE-unix/4548,unix/tom-Laptop:/tmp/.ICE-unix/4548'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/056e7bdf_e991_4620_80a5_ee165cd7057d'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.88'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/tom/rslidar_ws/build/rslidar_msg'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d9d5dc54b66e188a510ae9fc5f392c26'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[6.885845] (rslidar_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rslidar_msg__cpp\x1b[0m\n'}
+[6.886085] (rslidar_msg) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[6.889942] (rslidar_msg) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[6.949751] (-) TimerEvent: {}
+[7.050450] (-) TimerEvent: {}
+[7.150801] (-) TimerEvent: {}
+[7.237529] (rslidar_msg) StdoutLine: {'line': b'[  5%] Built target rslidar_msg__cpp\n'}
+[7.241525] (rslidar_msg) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.241736] (rslidar_msg) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.250921] (-) TimerEvent: {}
+[7.263817] (rslidar_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rslidar_msg__rosidl_generator_c\x1b[0m\n'}
+[7.351037] (-) TimerEvent: {}
+[7.377548] (rslidar_msg) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/rslidar_msg__rosidl_generator_c.dir/rosidl_generator_c/rslidar_msg/msg/rslidar_scan__functions.c.o\x1b[0m\n'}
+[7.377728] (rslidar_msg) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/rslidar_msg__rosidl_generator_c.dir/rosidl_generator_c/rslidar_msg/msg/rslidar_packet__functions.c.o\x1b[0m\n'}
+[7.451180] (-) TimerEvent: {}
+[7.514062] (rslidar_msg) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library librslidar_msg__rosidl_generator_c.so\x1b[0m\n'}
+[7.521348] (rslidar_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rslidar_msg__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[7.546339] (rslidar_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rslidar_msg__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[7.551281] (-) TimerEvent: {}
+[7.601217] (rslidar_msg) StdoutLine: {'line': b'[ 18%] Built target rslidar_msg__rosidl_generator_c\n'}
+[7.606667] (rslidar_msg) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.614949] (rslidar_msg) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rslidar_msg/msg/rslidar_packet__type_support.cpp.o\x1b[0m\n'}
+[7.616104] (rslidar_msg) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rslidar_msg/msg/rslidar_scan__type_support.cpp.o\x1b[0m\n'}
+[7.624179] (rslidar_msg) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rslidar_msg/msg/dds_fastrtps/rslidar_scan__type_support.cpp.o\x1b[0m\n'}
+[7.624332] (rslidar_msg) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rslidar_msg/msg/dds_fastrtps/rslidar_packet__type_support.cpp.o\x1b[0m\n'}
+[7.651399] (-) TimerEvent: {}
+[7.751634] (-) TimerEvent: {}
+[7.851882] (-) TimerEvent: {}
+[7.869117] (rslidar_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rslidar_msg__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[7.952075] (-) TimerEvent: {}
+[8.005540] (rslidar_msg) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/rslidar_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rslidar_msg/msg/rslidar_packet__type_support.c.o\x1b[0m\n'}
+[8.006317] (rslidar_msg) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding C object CMakeFiles/rslidar_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rslidar_msg/msg/rslidar_scan__type_support.c.o\x1b[0m\n'}
+[8.052165] (-) TimerEvent: {}
+[8.061055] (rslidar_msg) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking C shared library librslidar_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[8.078170] (rslidar_msg) StdoutLine: {'line': b'[ 40%] Built target rslidar_msg__rosidl_typesupport_introspection_c\n'}
+[8.152349] (-) TimerEvent: {}
+[8.252780] (-) TimerEvent: {}
+[8.353091] (-) TimerEvent: {}
+[8.429768] (rslidar_msg) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library librslidar_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.453221] (-) TimerEvent: {}
+[8.482558] (rslidar_msg) StdoutLine: {'line': b'[ 43%] Built target rslidar_msg__rosidl_typesupport_introspection_cpp\n'}
+[8.505776] (rslidar_msg) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library librslidar_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.553383] (-) TimerEvent: {}
+[8.653695] (-) TimerEvent: {}
+[8.666469] (rslidar_msg) StdoutLine: {'line': b'[ 45%] Built target rslidar_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[8.670388] (rslidar_msg) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.670529] (rslidar_msg) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.753821] (-) TimerEvent: {}
+[8.854131] (-) TimerEvent: {}
+[8.913504] (rslidar_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rslidar_msg__rosidl_typesupport_cpp\x1b[0m\n'}
+[8.919821] (rslidar_msg) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rslidar_msg/msg/rslidar_packet__type_support.cpp.o\x1b[0m\n'}
+[8.919976] (rslidar_msg) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rslidar_msg/msg/rslidar_scan__type_support.cpp.o\x1b[0m\n'}
+[8.941087] (rslidar_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rslidar_msg__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[8.954252] (-) TimerEvent: {}
+[8.972089] (rslidar_msg) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rslidar_msg/msg/rslidar_packet__type_support_c.cpp.o\x1b[0m\n'}
+[8.972331] (rslidar_msg) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rslidar_msg/msg/rslidar_scan__type_support_c.cpp.o\x1b[0m\n'}
+[9.054361] (-) TimerEvent: {}
+[9.154653] (-) TimerEvent: {}
+[9.197190] (rslidar_msg) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library librslidar_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.226954] (rslidar_msg) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library librslidar_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.254776] (-) TimerEvent: {}
+[9.258042] (rslidar_msg) StdoutLine: {'line': b'[ 67%] Built target rslidar_msg__rosidl_typesupport_cpp\n'}
+[9.289008] (rslidar_msg) StdoutLine: {'line': b'[ 67%] Built target rslidar_msg__rosidl_typesupport_fastrtps_c\n'}
+[9.292915] (rslidar_msg) StdoutLine: {'line': b'[ 70%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[9.354880] (-) TimerEvent: {}
+[9.455102] (-) TimerEvent: {}
+[9.499362] (rslidar_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rslidar_msg__rosidl_typesupport_c\x1b[0m\n'}
+[9.523018] (rslidar_msg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/rslidar_msg/msg/rslidar_scan__type_support.cpp.o\x1b[0m\n'}
+[9.523240] (rslidar_msg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/rslidar_msg/msg/rslidar_packet__type_support.cpp.o\x1b[0m\n'}
+[9.542323] (rslidar_msg) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking CXX shared library librslidar_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[9.555229] (-) TimerEvent: {}
+[9.581119] (rslidar_msg) StdoutLine: {'line': b'[ 78%] Built target rslidar_msg__rosidl_typesupport_c\n'}
+[9.584842] (rslidar_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rslidar_msg\x1b[0m\n'}
+[9.588661] (rslidar_msg) StdoutLine: {'line': b'[ 78%] Built target rslidar_msg\n'}
+[9.592559] (rslidar_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rslidar_msg__py\x1b[0m\n'}
+[9.596736] (rslidar_msg) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.655342] (-) TimerEvent: {}
+[9.755583] (-) TimerEvent: {}
+[9.855995] (-) TimerEvent: {}
+[9.956792] (-) TimerEvent: {}
+[10.057330] (-) TimerEvent: {}
+[10.157724] (-) TimerEvent: {}
+[10.258138] (-) TimerEvent: {}
+[10.358730] (-) TimerEvent: {}
+[10.459360] (-) TimerEvent: {}
+[10.559961] (-) TimerEvent: {}
+[10.660669] (-) TimerEvent: {}
+[10.761297] (-) TimerEvent: {}
+[10.861910] (-) TimerEvent: {}
+[10.962482] (-) TimerEvent: {}
+[11.062743] (-) TimerEvent: {}
+[11.123756] (rslidar_msg) StdoutLine: {'line': b'[ 81%] Built target rslidar_msg__py\n'}
+[11.127771] (rslidar_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rslidar_msg__python\x1b[0m\n'}
+[11.162911] (-) TimerEvent: {}
+[11.263192] (-) TimerEvent: {}
+[11.274887] (rslidar_msg) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/rslidar_msg__python.dir/rosidl_generator_py/rslidar_msg/msg/_rslidar_scan_s.c.o\x1b[0m\n'}
+[11.275060] (rslidar_msg) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/rslidar_msg__python.dir/rosidl_generator_py/rslidar_msg/msg/_rslidar_packet_s.c.o\x1b[0m\n'}
+[11.363415] (-) TimerEvent: {}
+[11.463942] (-) TimerEvent: {}
+[11.530153] (rslidar_msg) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/rslidar_msg/librslidar_msg__python.so\x1b[0m\n'}
+[11.564044] (-) TimerEvent: {}
+[11.578660] (rslidar_msg) StdoutLine: {'line': b'[ 89%] Built target rslidar_msg__python\n'}
+[11.582802] (rslidar_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rslidar_msg__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[11.583013] (rslidar_msg) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rslidar_msg__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[11.644294] (rslidar_msg) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/rslidar_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[11.644576] (rslidar_msg) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/rslidar_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rslidar_msg/_rslidar_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[11.664163] (-) TimerEvent: {}
+[11.705059] (rslidar_msg) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/rslidar_msg/rslidar_msg_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.707844] (rslidar_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/rslidar_msg/rslidar_msg_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so\x1b[0m\n'}
+[11.756043] (rslidar_msg) StdoutLine: {'line': b'[100%] Built target rslidar_msg__rosidl_typesupport_c__pyext\n'}
+[11.758098] (rslidar_msg) StdoutLine: {'line': b'[100%] Built target rslidar_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[11.761853] (rslidar_msg) CommandEnded: {'returncode': 0}
+[11.764542] (-) TimerEvent: {}
+[11.815489] (rslidar_msg) JobProgress: {'identifier': 'rslidar_msg', 'progress': 'install'}
+[11.820385] (rslidar_msg) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/tom/rslidar_ws/build/rslidar_msg'], 'cwd': '/home/tom/rslidar_ws/build/rslidar_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tom'), ('LANGUAGE', 'zh_CN:en_US:en'), ('LC_TIME', 'zh_CN.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '4638'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/usr/local/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib:/usr/local/cuda-10.0/lib64:'), ('SHLVL', '1'), ('OLDPWD', '/home/tom/rslidar_ws/src'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/tom'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '4414'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d9d5dc54b66e188a510ae9fc5f392c26'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'tom'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '9:52540'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig::/usr/local/lib/pkgconfig'), ('USERNAME', 'tom'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/cuda-10.0/bin:/home/tom/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '0bcb4900aef74c3890002489bae9133a'), ('PAPERSIZE', 'a4'), ('SESSION_MANAGER', 'local/tom-Laptop:@/tmp/.ICE-unix/4548,unix/tom-Laptop:/tmp/.ICE-unix/4548'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/056e7bdf_e991_4620_80a5_ee165cd7057d'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.88'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/tom/rslidar_ws/build/rslidar_msg'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d9d5dc54b66e188a510ae9fc5f392c26'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/opt/ros/eloquent')]), 'shell': False}
+[11.823191] (rslidar_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.823392] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/share/ament_index/resource_index/rosidl_interfaces/rslidar_msg\n'}
+[11.823563] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg\n'}
+[11.823748] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg\n'}
+[11.823833] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg/rslidar_packet__struct.hpp\n'}
+[11.823925] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg/rslidar_packet__traits.hpp\n'}
+[11.824018] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg/rslidar_scan__struct.hpp\n'}
+[11.824093] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg/rslidar_scan__traits.hpp\n'}
+[11.824167] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg/rslidar_packet.hpp\n'}
+[11.824240] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg/rslidar_scan.hpp\n'}
+[11.824312] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg\n'}
+[11.824384] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg\n'}
+[11.824468] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg/rslidar_packet__type_support.h\n'}
+[11.824544] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg/rslidar_scan__functions.h\n'}
+[11.824630] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg/rslidar_scan__struct.h\n'}
+[11.824690] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg/rslidar_packet__functions.c\n'}
+[11.824763] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg/rslidar_scan__functions.c\n'}
+[11.824821] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg/rslidar_packet.h\n'}
+[11.824894] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg/rslidar_scan__type_support.h\n'}
+[11.824952] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg/rslidar_packet__struct.h\n'}
+[11.825016] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg/rslidar_scan.h\n'}
+[11.825077] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg/rslidar_packet__functions.h\n'}
+[11.825151] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.825210] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/share/rslidar_msg/environment/library_path.sh\n'}
+[11.825267] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/share/rslidar_msg/environment/library_path.dsv\n'}
+[11.825338] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_generator_c.so\n'}
+[11.825396] (rslidar_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/tom/rslidar_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_generator_c.so" to ""\n'}
+[11.825467] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_c.so\n'}
+[11.825678] (rslidar_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/tom/rslidar_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_c.so" to ""\n'}
+[11.825761] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_cpp.so\n'}
+[11.826054] (rslidar_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/tom/rslidar_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[11.826131] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg\n'}
+[11.826204] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg\n'}
+[11.826280] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg/rslidar_packet__type_support.c\n'}
+[11.826364] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg/rslidar_packet__rosidl_typesupport_introspection_c.h\n'}
+[11.826436] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.826493] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg/rslidar_scan__type_support.c\n'}
+[11.826564] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg/rslidar_scan__rosidl_typesupport_introspection_c.h\n'}
+[11.826622] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_introspection_c.so\n'}
+[11.826838] (rslidar_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/tom/rslidar_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.826911] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg\n'}
+[11.826994] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg\n'}
+[11.827065] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg/rslidar_scan__type_support.cpp\n'}
+[11.827136] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg/rslidar_packet__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.827208] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg/rslidar_scan__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.827265] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg/rslidar_packet__type_support.cpp\n'}
+[11.827336] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[11.827641] (rslidar_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/tom/rslidar_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.827735] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg\n'}
+[11.827808] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg\n'}
+[11.827879] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg/rslidar_packet__rosidl_typesupport_fastrtps_c.h\n'}
+[11.827950] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.828008] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg/rslidar_scan__rosidl_typesupport_fastrtps_c.h\n'}
+[11.828080] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[11.828342] (rslidar_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/tom/rslidar_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.828413] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg\n'}
+[11.828496] (rslidar_msg) StdoutLine: {'line': b'-- Up-to-date: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg\n'}
+[11.828577] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg/rslidar_scan__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.828666] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg/dds_fastrtps\n'}
+[11.828725] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.828782] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/include/rslidar_msg/msg/rslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.828888] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.829176] (rslidar_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/tom/rslidar_ws/install/rslidar_msg/lib/librslidar_msg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.829252] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/share/rslidar_msg/environment/pythonpath.sh\n'}
+[11.829344] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/share/rslidar_msg/environment/pythonpath.dsv\n'}
+[11.829456] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/lib/python3.6/site-packages/rslidar_msg/__init__.py\n'}
+[11.864637] (-) TimerEvent: {}
+[11.870825] (rslidar_msg) StdoutLine: {'line': b"Compiling '/home/tom/rslidar_ws/install/rslidar_msg/lib/python3.6/site-packages/rslidar_msg/__init__.py'...\n"}
+[11.873814] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/lib/python3.6/site-packages/rslidar_msg/msg\n'}
+[11.874144] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/lib/python3.6/site-packages/rslidar_msg/msg/_rslidar_packet_s.c\n'}
+[11.874243] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/lib/python3.6/site-packages/rslidar_msg/msg/__init__.py\n'}
+[11.874334] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/lib/python3.6/site-packages/rslidar_msg/msg/_rslidar_scan.py\n'}
+[11.874400] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/lib/python3.6/site-packages/rslidar_msg/msg/_rslidar_packet.py\n'}
+[11.874459] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/lib/python3.6/site-packages/rslidar_msg/msg/_rslidar_scan_s.c\n'}
+[11.874519] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/lib/python3.6/site-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[11.874719] (rslidar_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/tom/rslidar_ws/install/rslidar_msg/lib/python3.6/site-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so" to ""\n'}
+[11.874942] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/lib/python3.6/site-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[11.875302] (rslidar_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/tom/rslidar_ws/install/rslidar_msg/lib/python3.6/site-packages/rslidar_msg/rslidar_msg_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so" to ""\n'}
+[11.875422] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/lib/librslidar_msg__python.so\n'}
+[11.875733] (rslidar_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/tom/rslidar_ws/install/rslidar_msg/lib/librslidar_msg__python.so" to ""\n'}
+[11.875898] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/share/rslidar_msg/msg/RslidarPacket.idl\n'}
+[11.875993] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/share/rslidar_msg/msg/RslidarScan.idl\n'}
+[11.876169] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/share/rslidar_msg/msg/RslidarPacket.msg\n'}
+[11.876239] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/share/rslidar_msg/msg/RslidarScan.msg\n'}
+[11.876321] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/share/ament_index/resource_index/package_run_dependencies/rslidar_msg\n'}
+[11.876382] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/share/ament_index/resource_index/parent_prefix_path/rslidar_msg\n'}
+[11.876457] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/share/rslidar_msg/environment/ament_prefix_path.sh\n'}
+[11.876531] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/share/rslidar_msg/environment/ament_prefix_path.dsv\n'}
+[11.876675] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/share/rslidar_msg/environment/path.sh\n'}
+[11.876773] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/share/rslidar_msg/environment/path.dsv\n'}
+[11.876850] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/share/rslidar_msg/local_setup.bash\n'}
+[11.876924] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/share/rslidar_msg/local_setup.sh\n'}
+[11.877003] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/share/rslidar_msg/local_setup.zsh\n'}
+[11.877082] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/share/rslidar_msg/local_setup.dsv\n'}
+[11.877158] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/share/rslidar_msg/package.dsv\n'}
+[11.877326] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/share/ament_index/resource_index/packages/rslidar_msg\n'}
+[11.877439] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/share/rslidar_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[11.877524] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.877618] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.877691] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/share/rslidar_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.877779] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msgConfig.cmake\n'}
+[11.877857] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/share/rslidar_msg/cmake/rslidar_msgConfig-version.cmake\n'}
+[11.877937] (rslidar_msg) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_msg/share/rslidar_msg/package.xml\n'}
+[11.878974] (rslidar_msg) CommandEnded: {'returncode': 0}
+[11.964801] (-) TimerEvent: {}
+[12.065446] (-) TimerEvent: {}
+[12.117402] (rslidar_msg) JobEnded: {'identifier': 'rslidar_msg', 'rc': 0}
+[12.121795] (rslidar_sdk) JobStarted: {'identifier': 'rslidar_sdk'}
+[12.129506] (rslidar_sdk) JobProgress: {'identifier': 'rslidar_sdk', 'progress': 'cmake'}
+[12.130947] (rslidar_sdk) Command: {'cmd': ['/usr/local/bin/cmake', '/home/tom/rslidar_ws/src/rslidar_sdk', '-DCMAKE_INSTALL_PREFIX=/home/tom/rslidar_ws/install/rslidar_sdk'], 'cwd': '/home/tom/rslidar_ws/build/rslidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tom'), ('LANGUAGE', 'zh_CN:en_US:en'), ('LC_TIME', 'zh_CN.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '4638'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/tom/rslidar_ws/install/rslidar_msg/lib:/usr/local/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib:/usr/local/cuda-10.0/lib64'), ('SHLVL', '1'), ('OLDPWD', '/home/tom/rslidar_ws/src'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/tom'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '4414'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d9d5dc54b66e188a510ae9fc5f392c26'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'tom'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '9:52540'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig::/usr/local/lib/pkgconfig'), ('USERNAME', 'tom'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/cuda-10.0/bin:/home/tom/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '0bcb4900aef74c3890002489bae9133a'), ('PAPERSIZE', 'a4'), ('SESSION_MANAGER', 'local/tom-Laptop:@/tmp/.ICE-unix/4548,unix/tom-Laptop:/tmp/.ICE-unix/4548'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/056e7bdf_e991_4620_80a5_ee165cd7057d'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.88'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/tom/rslidar_ws/install/rslidar_msg:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/tom/rslidar_ws/build/rslidar_sdk'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d9d5dc54b66e188a510ae9fc5f392c26'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/home/tom/rslidar_ws/install/rslidar_msg/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/tom/rslidar_ws/install/rslidar_msg:/opt/ros/eloquent')]), 'shell': False}
+[12.165536] (-) TimerEvent: {}
+[12.175765] (rslidar_sdk) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[12.227221] (rslidar_sdk) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[12.233923] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[12.265644] (-) TimerEvent: {}
+[12.281303] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[12.292123] (rslidar_sdk) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[12.292348] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[12.292737] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[12.296091] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[12.353765] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[12.365004] (rslidar_sdk) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[12.365381] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[12.365695] (-) TimerEvent: {}
+[12.365963] (rslidar_sdk) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[12.401090] (rslidar_sdk) StderrLine: {'line': b'=============================================================\n'}
+[12.401413] (rslidar_sdk) StderrLine: {'line': b'-- ROS Not Found, Ros Support is turned Off!\n'}
+[12.401572] (rslidar_sdk) StderrLine: {'line': b'=============================================================\n'}
+[12.437373] (rslidar_sdk) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") \n'}
+[12.437588] (rslidar_sdk) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[12.465784] (-) TimerEvent: {}
+[12.566032] (-) TimerEvent: {}
+[12.635185] (rslidar_sdk) StdoutLine: {'line': b'-- Found rosidl_adapter: 0.8.2 (/opt/ros/eloquent/share/rosidl_adapter/cmake)\n'}
+[12.666135] (-) TimerEvent: {}
+[12.670369] (rslidar_sdk) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 0.8.1 (/opt/ros/eloquent/share/rmw_implementation_cmake/cmake)\n'}
+[12.671483] (rslidar_sdk) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[12.672230] (rslidar_sdk) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[12.713459] (rslidar_sdk) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[12.713678] (rslidar_sdk) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[12.758488] (rslidar_sdk) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[12.758735] (rslidar_sdk) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[12.766276] (-) TimerEvent: {}
+[12.794761] (rslidar_sdk) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[12.795048] (rslidar_sdk) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[12.841060] (rslidar_sdk) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[12.842095] (rslidar_sdk) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[12.866378] (-) TimerEvent: {}
+[12.897413] (rslidar_sdk) StdoutLine: {'line': b'-- Found sensor_msgs: 0.8.1 (/opt/ros/eloquent/share/sensor_msgs/cmake)\n'}
+[12.966579] (-) TimerEvent: {}
+[12.999476] (rslidar_sdk) StdoutLine: {'line': b'-- Found rslidar_msg: 0.0.0 (/home/tom/rslidar_ws/install/rslidar_msg/share/rslidar_msg/cmake)\n'}
+[13.004204] (rslidar_sdk) StderrLine: {'line': b'=============================================================\n'}
+[13.004304] (rslidar_sdk) StderrLine: {'line': b'-- ROS2 Found, Ros2 Support is turned On!\n'}
+[13.004374] (rslidar_sdk) StderrLine: {'line': b'=============================================================\n'}
+[13.066801] (-) TimerEvent: {}
+[13.137967] (rslidar_sdk) StderrLine: {'line': b'=============================================================\n'}
+[13.138701] (rslidar_sdk) StderrLine: {'line': b'-- Protobuf Found, Protobuf Support is turned On!\n'}
+[13.139032] (rslidar_sdk) StderrLine: {'line': b'=============================================================\n'}
+[13.139306] (rslidar_sdk) StdoutLine: {'line': b'-- COMPILING /home/tom/rslidar_ws/src/rslidar_sdk/src/msg/proto_msg/Proto_msg.LidarPacket.proto USING /usr/bin/protoc\n'}
+[13.157228] (rslidar_sdk) StdoutLine: {'line': b'-- COMPILING /home/tom/rslidar_ws/src/rslidar_sdk/src/msg/proto_msg/Proto_msg.LidarPoints.proto USING /usr/bin/protoc\n'}
+[13.160671] (rslidar_sdk) StdoutLine: {'line': b'-- COMPILING /home/tom/rslidar_ws/src/rslidar_sdk/src/msg/proto_msg/Proto_msg.LidarScan.proto USING /usr/bin/protoc\n'}
+[13.166901] (-) TimerEvent: {}
+[13.256379] (rslidar_sdk) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[13.267065] (-) TimerEvent: {}
+[13.283568] (rslidar_sdk) StdoutLine: {'line': b'--   Found eigen3, version 3.3.7\n'}
+[13.313337] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[13.313557] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (eigen) does\n'}
+[13.313665] (rslidar_sdk) StderrLine: {'line': b'  not match the name of the calling package (PCL).  This can lead to problems\n'}
+[13.313729] (rslidar_sdk) StderrLine: {'line': b'  in calling code that expects `find_package` result variables (e.g.,\n'}
+[13.313785] (rslidar_sdk) StderrLine: {'line': b'  `_FOUND`) to follow a certain pattern.\n'}
+[13.313842] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[13.313897] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:153 (find_package_handle_standard_args)\n'}
+[13.313952] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:638 (find_eigen)\n'}
+[13.314021] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:850 (find_external_library)\n'}
+[13.314083] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[13.314141] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[13.314199] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[13.314257] (rslidar_sdk) StdoutLine: {'line': b'-- Found eigen: /usr/local/include/eigen3  \n'}
+[13.367200] (-) TimerEvent: {}
+[13.425836] (rslidar_sdk) StdoutLine: {'line': b"-- Checking for module 'libopenni'\n"}
+[13.451951] (rslidar_sdk) StdoutLine: {'line': b'--   Found libopenni, version 1.5.4.0\n'}
+[13.467326] (-) TimerEvent: {}
+[13.536254] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[13.537031] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (openni)\n'}
+[13.537349] (rslidar_sdk) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[13.537614] (rslidar_sdk) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[13.537867] (rslidar_sdk) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[13.538130] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[13.538382] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:235 (find_package_handle_standard_args)\n'}
+[13.538626] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:644 (find_openni)\n'}
+[13.538863] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[13.539102] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[13.539343] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[13.539583] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[13.539823] (rslidar_sdk) StdoutLine: {'line': b'-- Found openni: /usr/lib/libOpenNI.so  \n'}
+[13.567540] (-) TimerEvent: {}
+[13.623310] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[13.623615] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (OpenNI2)\n'}
+[13.623777] (rslidar_sdk) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[13.623923] (rslidar_sdk) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[13.624063] (rslidar_sdk) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[13.624245] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[13.624416] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:280 (find_package_handle_standard_args)\n'}
+[13.624623] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:646 (find_openni2)\n'}
+[13.624816] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[13.625000] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[13.625173] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[13.625342] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[13.647235] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[13.647700] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (ensenso)\n'}
+[13.647982] (rslidar_sdk) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[13.648238] (rslidar_sdk) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[13.648484] (rslidar_sdk) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[13.648775] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[13.649025] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:312 (find_package_handle_standard_args)\n'}
+[13.649268] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:648 (find_ensenso)\n'}
+[13.649511] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[13.649746] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[13.649980] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[13.650215] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[13.666736] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[13.667199] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (DAVIDSDK)\n'}
+[13.667482] (rslidar_sdk) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[13.667725] (-) TimerEvent: {}
+[13.668028] (rslidar_sdk) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[13.668311] (rslidar_sdk) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[13.668585] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[13.668846] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:346 (find_package_handle_standard_args)\n'}
+[13.669497] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:650 (find_davidSDK)\n'}
+[13.669815] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[13.670079] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[13.670328] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[13.670575] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[13.670821] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[13.671098] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (DSSDK) does\n'}
+[13.671364] (rslidar_sdk) StderrLine: {'line': b'  not match the name of the calling package (PCL).  This can lead to problems\n'}
+[13.671607] (rslidar_sdk) StderrLine: {'line': b'  in calling code that expects `find_package` result variables (e.g.,\n'}
+[13.671851] (rslidar_sdk) StderrLine: {'line': b'  `_FOUND`) to follow a certain pattern.\n'}
+[13.672094] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[13.672339] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:388 (find_package_handle_standard_args)\n'}
+[13.672643] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:652 (find_dssdk)\n'}
+[13.672912] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[13.673154] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[13.673397] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[13.673660] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[13.767878] (-) TimerEvent: {}
+[13.818545] (rslidar_sdk) StdoutLine: {'line': b'-- The imported target "vtkRenderingPythonTkWidgets" references the file\n'}
+[13.818693] (rslidar_sdk) StdoutLine: {'line': b'   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"\n'}
+[13.818764] (rslidar_sdk) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[13.818829] (rslidar_sdk) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[13.818891] (rslidar_sdk) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[13.818951] (rslidar_sdk) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[13.819011] (rslidar_sdk) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"\n'}
+[13.819072] (rslidar_sdk) StdoutLine: {'line': b'but not all the files it references.\n'}
+[13.819261] (rslidar_sdk) StdoutLine: {'line': b'\n'}
+[13.819332] (rslidar_sdk) StdoutLine: {'line': b'-- The imported target "vtk" references the file\n'}
+[13.819398] (rslidar_sdk) StdoutLine: {'line': b'   "/usr/bin/vtk"\n'}
+[13.819460] (rslidar_sdk) StdoutLine: {'line': b'but this file does not exist.  Possible reasons include:\n'}
+[13.819521] (rslidar_sdk) StdoutLine: {'line': b'* The file was deleted, renamed, or moved to another location.\n'}
+[13.819581] (rslidar_sdk) StdoutLine: {'line': b'* An install or uninstall procedure did not complete successfully.\n'}
+[13.819641] (rslidar_sdk) StdoutLine: {'line': b'* The installation package was faulty and contained\n'}
+[13.819702] (rslidar_sdk) StdoutLine: {'line': b'   "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"\n'}
+[13.819761] (rslidar_sdk) StdoutLine: {'line': b'but not all the files it references.\n'}
+[13.819820] (rslidar_sdk) StdoutLine: {'line': b'\n'}
+[13.868105] (-) TimerEvent: {}
+[13.968705] (-) TimerEvent: {}
+[14.069323] (-) TimerEvent: {}
+[14.169896] (-) TimerEvent: {}
+[14.249345] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.249555] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (libusb-1.0)\n'}
+[14.249639] (rslidar_sdk) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[14.249712] (rslidar_sdk) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[14.249771] (rslidar_sdk) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[14.249903] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.249987] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:515 (find_package_handle_standard_args)\n'}
+[14.250050] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:658 (find_libusb)\n'}
+[14.250109] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[14.250166] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.250222] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.250278] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.250334] (rslidar_sdk) StdoutLine: {'line': b'-- Found libusb-1.0: /usr/include  \n'}
+[14.250394] (rslidar_sdk) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[14.267824] (rslidar_sdk) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[14.269981] (-) TimerEvent: {}
+[14.333664] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.334026] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (Flann) does\n'}
+[14.334173] (rslidar_sdk) StderrLine: {'line': b'  not match the name of the calling package (PCL).  This can lead to problems\n'}
+[14.334296] (rslidar_sdk) StderrLine: {'line': b'  in calling code that expects `find_package` result variables (e.g.,\n'}
+[14.334416] (rslidar_sdk) StderrLine: {'line': b'  `_FOUND`) to follow a certain pattern.\n'}
+[14.334534] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.334649] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:473 (find_package_handle_standard_args)\n'}
+[14.334761] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:640 (find_flann)\n'}
+[14.334875] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:850 (find_external_library)\n'}
+[14.335199] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.335332] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.335454] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.335572] (rslidar_sdk) StdoutLine: {'line': b'-- Found Flann: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a  \n'}
+[14.335698] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.335814] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (Flann) does\n'}
+[14.335929] (rslidar_sdk) StderrLine: {'line': b'  not match the name of the calling package (PCL).  This can lead to problems\n'}
+[14.336042] (rslidar_sdk) StderrLine: {'line': b'  in calling code that expects `find_package` result variables (e.g.,\n'}
+[14.336154] (rslidar_sdk) StderrLine: {'line': b'  `_FOUND`) to follow a certain pattern.\n'}
+[14.336266] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.336390] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:473 (find_package_handle_standard_args)\n'}
+[14.336505] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:640 (find_flann)\n'}
+[14.336649] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:850 (find_external_library)\n'}
+[14.336768] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.336881] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.336994] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.366099] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.366242] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (openni)\n'}
+[14.366323] (rslidar_sdk) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[14.366396] (rslidar_sdk) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[14.366467] (rslidar_sdk) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[14.366536] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.366605] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:235 (find_package_handle_standard_args)\n'}
+[14.366675] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:644 (find_openni)\n'}
+[14.366743] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[14.366821] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.366890] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.366963] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.367421] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.367531] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (OpenNI2)\n'}
+[14.367610] (rslidar_sdk) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[14.367684] (rslidar_sdk) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[14.367755] (rslidar_sdk) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[14.367826] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.367895] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:280 (find_package_handle_standard_args)\n'}
+[14.367965] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:646 (find_openni2)\n'}
+[14.368035] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[14.368103] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.368214] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.368288] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.370078] (-) TimerEvent: {}
+[14.371676] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.371782] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (ensenso)\n'}
+[14.371852] (rslidar_sdk) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[14.371918] (rslidar_sdk) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[14.371988] (rslidar_sdk) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[14.372052] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.372114] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:312 (find_package_handle_standard_args)\n'}
+[14.372176] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:648 (find_ensenso)\n'}
+[14.372239] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[14.372300] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.372361] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.372422] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.372546] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.372624] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (DAVIDSDK)\n'}
+[14.372688] (rslidar_sdk) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[14.372750] (rslidar_sdk) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[14.372811] (rslidar_sdk) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[14.372873] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.372935] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:346 (find_package_handle_standard_args)\n'}
+[14.372996] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:650 (find_davidSDK)\n'}
+[14.373063] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[14.373222] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.373316] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.373385] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.373449] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.373511] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (DSSDK) does\n'}
+[14.373578] (rslidar_sdk) StderrLine: {'line': b'  not match the name of the calling package (PCL).  This can lead to problems\n'}
+[14.373642] (rslidar_sdk) StderrLine: {'line': b'  in calling code that expects `find_package` result variables (e.g.,\n'}
+[14.373704] (rslidar_sdk) StderrLine: {'line': b'  `_FOUND`) to follow a certain pattern.\n'}
+[14.373774] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.373957] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:388 (find_package_handle_standard_args)\n'}
+[14.374036] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:652 (find_dssdk)\n'}
+[14.374104] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[14.374170] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.374233] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.374295] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.374356] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.374426] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (RSSDK) does\n'}
+[14.374483] (rslidar_sdk) StderrLine: {'line': b'  not match the name of the calling package (PCL).  This can lead to problems\n'}
+[14.374539] (rslidar_sdk) StderrLine: {'line': b'  in calling code that expects `find_package` result variables (e.g.,\n'}
+[14.374596] (rslidar_sdk) StderrLine: {'line': b'  `_FOUND`) to follow a certain pattern.\n'}
+[14.374653] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.374708] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:432 (find_package_handle_standard_args)\n'}
+[14.374764] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:654 (find_rssdk)\n'}
+[14.374820] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[14.374877] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.374933] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.374990] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.410418] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.410629] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (qhull) does\n'}
+[14.410717] (rslidar_sdk) StderrLine: {'line': b'  not match the name of the calling package (PCL).  This can lead to problems\n'}
+[14.410788] (rslidar_sdk) StderrLine: {'line': b'  in calling code that expects `find_package` result variables (e.g.,\n'}
+[14.410848] (rslidar_sdk) StderrLine: {'line': b'  `_FOUND`) to follow a certain pattern.\n'}
+[14.410907] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.410971] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:185 (find_package_handle_standard_args)\n'}
+[14.411038] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:642 (find_qhull)\n'}
+[14.411100] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[14.411253] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.411343] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.411409] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.411469] (rslidar_sdk) StdoutLine: {'line': b'-- Found qhull: /usr/lib/x86_64-linux-gnu/libqhull.so  \n'}
+[14.411534] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.411594] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (openni)\n'}
+[14.411652] (rslidar_sdk) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[14.411710] (rslidar_sdk) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[14.411767] (rslidar_sdk) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[14.411823] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.411879] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:235 (find_package_handle_standard_args)\n'}
+[14.411942] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:644 (find_openni)\n'}
+[14.412008] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:847 (find_external_library)\n'}
+[14.412065] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.412121] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.412178] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.440588] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.440814] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_COMMON)\n'}
+[14.440883] (rslidar_sdk) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[14.440944] (rslidar_sdk) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[14.441003] (rslidar_sdk) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[14.441061] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.441118] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[14.441175] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.441231] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.441295] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.441353] (rslidar_sdk) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[14.441592] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.441690] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_OCTREE)\n'}
+[14.441758] (rslidar_sdk) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[14.441911] (rslidar_sdk) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[14.441978] (rslidar_sdk) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[14.442038] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.442101] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[14.442158] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.442215] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.442281] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.442341] (rslidar_sdk) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[14.442536] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.442636] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_IO)\n'}
+[14.442730] (rslidar_sdk) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[14.442791] (rslidar_sdk) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[14.442850] (rslidar_sdk) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[14.442908] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.442965] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[14.443022] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.443078] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.443134] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.443189] (rslidar_sdk) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[14.443554] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.443665] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_KDTREE)\n'}
+[14.443731] (rslidar_sdk) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[14.443791] (rslidar_sdk) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[14.443849] (rslidar_sdk) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[14.443905] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.443961] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[14.444019] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.444075] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.444131] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.444188] (rslidar_sdk) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[14.444488] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.444576] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_SEARCH)\n'}
+[14.444639] (rslidar_sdk) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[14.444696] (rslidar_sdk) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[14.444758] (rslidar_sdk) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[14.444814] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.444870] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[14.444926] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.444983] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.445042] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.445098] (rslidar_sdk) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[14.445526] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.445620] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[14.445688] (rslidar_sdk) StderrLine: {'line': b'  (PCL_SAMPLE_CONSENSUS) does not match the name of the calling package\n'}
+[14.445752] (rslidar_sdk) StderrLine: {'line': b'  (PCL).  This can lead to problems in calling code that expects\n'}
+[14.445907] (rslidar_sdk) StderrLine: {'line': b'  `find_package` result variables (e.g., `_FOUND`) to follow a certain\n'}
+[14.445974] (rslidar_sdk) StderrLine: {'line': b'  pattern.\n'}
+[14.446034] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.446100] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[14.446158] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.446215] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.446271] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.446328] (rslidar_sdk) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[14.446542] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.446721] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[14.446794] (rslidar_sdk) StderrLine: {'line': b'  (PCL_FILTERS) does not match the name of the calling package (PCL).  This\n'}
+[14.446855] (rslidar_sdk) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[14.446914] (rslidar_sdk) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[14.446971] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.447078] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[14.447162] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.447218] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.447274] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.447330] (rslidar_sdk) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[14.447390] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.447448] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_2D)\n'}
+[14.447507] (rslidar_sdk) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[14.447564] (rslidar_sdk) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[14.447674] (rslidar_sdk) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[14.447758] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.447815] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:914 (find_package_handle_standard_args)\n'}
+[14.447872] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.447928] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.447984] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.448040] (rslidar_sdk) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.8  \n'}
+[14.448104] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.448162] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[14.448218] (rslidar_sdk) StderrLine: {'line': b'  (PCL_GEOMETRY) does not match the name of the calling package (PCL).  This\n'}
+[14.448274] (rslidar_sdk) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[14.448329] (rslidar_sdk) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[14.448385] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.448496] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:914 (find_package_handle_standard_args)\n'}
+[14.448589] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.448647] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.448702] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.448758] (rslidar_sdk) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.8  \n'}
+[14.448817] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.448874] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[14.448930] (rslidar_sdk) StderrLine: {'line': b'  (PCL_FEATURES) does not match the name of the calling package (PCL).  This\n'}
+[14.448986] (rslidar_sdk) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[14.449041] (rslidar_sdk) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[14.449097] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.449153] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[14.449209] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.449266] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.449322] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.449378] (rslidar_sdk) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[14.449547] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.449608] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_ML)\n'}
+[14.449692] (rslidar_sdk) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[14.449749] (rslidar_sdk) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[14.449804] (rslidar_sdk) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[14.449860] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.449920] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[14.449977] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.450034] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.450090] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.450145] (rslidar_sdk) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[14.450531] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.450595] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[14.450654] (rslidar_sdk) StderrLine: {'line': b'  (PCL_SEGMENTATION) does not match the name of the calling package (PCL).\n'}
+[14.450717] (rslidar_sdk) StderrLine: {'line': b'  This can lead to problems in calling code that expects `find_package`\n'}
+[14.450801] (rslidar_sdk) StderrLine: {'line': b'  result variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[14.450857] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.450913] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[14.450973] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.451030] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.451086] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.451142] (rslidar_sdk) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[14.464164] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.464361] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[14.464433] (rslidar_sdk) StderrLine: {'line': b'  (PCL_VISUALIZATION) does not match the name of the calling package (PCL).\n'}
+[14.464493] (rslidar_sdk) StderrLine: {'line': b'  This can lead to problems in calling code that expects `find_package`\n'}
+[14.464551] (rslidar_sdk) StderrLine: {'line': b'  result variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[14.464623] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.464680] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[14.464737] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.464794] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.464850] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.464906] (rslidar_sdk) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[14.465274] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.465339] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[14.465400] (rslidar_sdk) StderrLine: {'line': b'  (PCL_SURFACE) does not match the name of the calling package (PCL).  This\n'}
+[14.465459] (rslidar_sdk) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[14.465518] (rslidar_sdk) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[14.465577] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.465635] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[14.465754] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.465811] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.465866] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.465922] (rslidar_sdk) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[14.466375] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.466491] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[14.466549] (rslidar_sdk) StderrLine: {'line': b'  (PCL_REGISTRATION) does not match the name of the calling package (PCL).\n'}
+[14.466605] (rslidar_sdk) StderrLine: {'line': b'  This can lead to problems in calling code that expects `find_package`\n'}
+[14.466661] (rslidar_sdk) StderrLine: {'line': b'  result variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[14.466727] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.466783] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[14.466840] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.466896] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.466952] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.467008] (rslidar_sdk) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[14.467495] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.467608] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[14.467666] (rslidar_sdk) StderrLine: {'line': b'  (PCL_KEYPOINTS) does not match the name of the calling package (PCL).  This\n'}
+[14.467722] (rslidar_sdk) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[14.467777] (rslidar_sdk) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[14.467832] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.467888] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[14.467944] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.467999] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.468054] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.468110] (rslidar_sdk) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[14.468641] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.468757] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[14.468824] (rslidar_sdk) StderrLine: {'line': b'  (PCL_TRACKING) does not match the name of the calling package (PCL).  This\n'}
+[14.468884] (rslidar_sdk) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[14.468942] (rslidar_sdk) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[14.469003] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.469060] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[14.469117] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.469173] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.469228] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.469284] (rslidar_sdk) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[14.469706] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.469771] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[14.469835] (rslidar_sdk) StderrLine: {'line': b'  (PCL_RECOGNITION) does not match the name of the calling package (PCL).\n'}
+[14.469918] (rslidar_sdk) StderrLine: {'line': b'  This can lead to problems in calling code that expects `find_package`\n'}
+[14.469974] (rslidar_sdk) StderrLine: {'line': b'  result variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[14.470035] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.470089] (-) TimerEvent: {}
+[14.470167] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[14.470259] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.470320] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.470378] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.470436] (rslidar_sdk) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[14.471026] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.471117] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_STEREO)\n'}
+[14.471176] (rslidar_sdk) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[14.471233] (rslidar_sdk) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[14.471290] (rslidar_sdk) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[14.471345] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.471401] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[14.471456] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.471513] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.471569] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.471626] (rslidar_sdk) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[14.472050] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.472132] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_APPS)\n'}
+[14.472191] (rslidar_sdk) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[14.472248] (rslidar_sdk) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[14.472304] (rslidar_sdk) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[14.472360] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.472416] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[14.472472] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.472535] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.472604] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.472661] (rslidar_sdk) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[14.473713] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.473773] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[14.473851] (rslidar_sdk) StderrLine: {'line': b'  (PCL_IN_HAND_SCANNER) does not match the name of the calling package (PCL).\n'}
+[14.473908] (rslidar_sdk) StderrLine: {'line': b'  This can lead to problems in calling code that expects `find_package`\n'}
+[14.473964] (rslidar_sdk) StderrLine: {'line': b'  result variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[14.474020] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.474076] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:914 (find_package_handle_standard_args)\n'}
+[14.474132] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.474194] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.474302] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.474363] (rslidar_sdk) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.8  \n'}
+[14.474424] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.474499] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[14.474556] (rslidar_sdk) StderrLine: {'line': b'  (PCL_MODELER) does not match the name of the calling package (PCL).  This\n'}
+[14.474613] (rslidar_sdk) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[14.474670] (rslidar_sdk) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[14.474726] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.474782] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:914 (find_package_handle_standard_args)\n'}
+[14.474842] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.474898] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.474955] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.475011] (rslidar_sdk) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.8  \n'}
+[14.551931] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.552457] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[14.553119] (rslidar_sdk) StderrLine: {'line': b'  (PCL_POINT_CLOUD_EDITOR) does not match the name of the calling package\n'}
+[14.553467] (rslidar_sdk) StderrLine: {'line': b'  (PCL).  This can lead to problems in calling code that expects\n'}
+[14.553765] (rslidar_sdk) StderrLine: {'line': b'  `find_package` result variables (e.g., `_FOUND`) to follow a certain\n'}
+[14.554027] (rslidar_sdk) StderrLine: {'line': b'  pattern.\n'}
+[14.554282] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.554713] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:914 (find_package_handle_standard_args)\n'}
+[14.555158] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.555473] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.555748] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.556026] (rslidar_sdk) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.8  \n'}
+[14.557230] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.557925] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args`\n'}
+[14.558286] (rslidar_sdk) StderrLine: {'line': b'  (PCL_OUTOFCORE) does not match the name of the calling package (PCL).  This\n'}
+[14.558580] (rslidar_sdk) StderrLine: {'line': b'  can lead to problems in calling code that expects `find_package` result\n'}
+[14.558862] (rslidar_sdk) StderrLine: {'line': b'  variables (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[14.559168] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.559460] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[14.559707] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.559953] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.560198] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.560443] (rslidar_sdk) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[14.562390] (rslidar_sdk) StderrLine: {'line': b'CMake Warning (dev) at /usr/local/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake:273 (message):\n'}
+[14.563079] (rslidar_sdk) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PCL_PEOPLE)\n'}
+[14.563402] (rslidar_sdk) StderrLine: {'line': b'  does not match the name of the calling package (PCL).  This can lead to\n'}
+[14.563715] (rslidar_sdk) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[14.563983] (rslidar_sdk) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[14.564240] (rslidar_sdk) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[14.564492] (rslidar_sdk) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:911 (find_package_handle_standard_args)\n'}
+[14.564784] (rslidar_sdk) StderrLine: {'line': b'  CMakeLists.txt:95 (find_package)\n'}
+[14.565038] (rslidar_sdk) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[14.565287] (rslidar_sdk) StderrLine: {'line': b'\n'}
+[14.565539] (rslidar_sdk) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[14.570280] (-) TimerEvent: {}
+[14.670778] (-) TimerEvent: {}
+[14.689295] (rslidar_sdk) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.771016] (-) TimerEvent: {}
+[14.871778] (-) TimerEvent: {}
+[14.972620] (-) TimerEvent: {}
+[15.073340] (-) TimerEvent: {}
+[15.174147] (-) TimerEvent: {}
+[15.274921] (-) TimerEvent: {}
+[15.375586] (-) TimerEvent: {}
+[15.475995] (-) TimerEvent: {}
+[15.576689] (-) TimerEvent: {}
+[15.677248] (-) TimerEvent: {}
+[15.742216] (rslidar_sdk) StdoutLine: {'line': b'-- Generating done\n'}
+[15.744046] (rslidar_sdk) StdoutLine: {'line': b'-- Build files have been written to: /home/tom/rslidar_ws/build/rslidar_sdk\n'}
+[15.753180] (rslidar_sdk) CommandEnded: {'returncode': 0}
+[15.754020] (rslidar_sdk) JobProgress: {'identifier': 'rslidar_sdk', 'progress': 'build'}
+[15.755455] (rslidar_sdk) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/home/tom/rslidar_ws/build/rslidar_sdk', '--', '-j12', '-l12'], 'cwd': '/home/tom/rslidar_ws/build/rslidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tom'), ('LANGUAGE', 'zh_CN:en_US:en'), ('LC_TIME', 'zh_CN.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '4638'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/tom/rslidar_ws/install/rslidar_msg/lib:/usr/local/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib:/usr/local/cuda-10.0/lib64'), ('SHLVL', '1'), ('OLDPWD', '/home/tom/rslidar_ws/src'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/tom'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '4414'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d9d5dc54b66e188a510ae9fc5f392c26'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'tom'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '9:52540'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig::/usr/local/lib/pkgconfig'), ('USERNAME', 'tom'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/cuda-10.0/bin:/home/tom/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '0bcb4900aef74c3890002489bae9133a'), ('PAPERSIZE', 'a4'), ('SESSION_MANAGER', 'local/tom-Laptop:@/tmp/.ICE-unix/4548,unix/tom-Laptop:/tmp/.ICE-unix/4548'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/056e7bdf_e991_4620_80a5_ee165cd7057d'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.88'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/tom/rslidar_ws/install/rslidar_msg:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/tom/rslidar_ws/build/rslidar_sdk'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d9d5dc54b66e188a510ae9fc5f392c26'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/home/tom/rslidar_ws/install/rslidar_msg/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/tom/rslidar_ws/install/rslidar_msg:/opt/ros/eloquent')]), 'shell': False}
+[15.772195] (rslidar_sdk) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target rslidar_sdk_node\x1b[0m\n'}
+[15.777415] (-) TimerEvent: {}
+[15.877807] (-) TimerEvent: {}
+[15.978440] (-) TimerEvent: {}
+[16.079058] (-) TimerEvent: {}
+[16.179711] (-) TimerEvent: {}
+[16.280483] (-) TimerEvent: {}
+[16.381188] (-) TimerEvent: {}
+[16.481844] (-) TimerEvent: {}
+[16.582525] (-) TimerEvent: {}
+[16.683222] (-) TimerEvent: {}
+[16.783881] (-) TimerEvent: {}
+[16.884518] (-) TimerEvent: {}
+[16.985218] (-) TimerEvent: {}
+[17.085971] (-) TimerEvent: {}
+[17.186729] (-) TimerEvent: {}
+[17.287336] (-) TimerEvent: {}
+[17.387788] (-) TimerEvent: {}
+[17.488345] (-) TimerEvent: {}
+[17.588759] (-) TimerEvent: {}
+[17.689420] (-) TimerEvent: {}
+[17.790052] (-) TimerEvent: {}
+[17.828855] (rslidar_sdk) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/node/rslidar_sdk_node.cpp.o\x1b[0m\n'}
+[17.829066] (rslidar_sdk) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/src/msg/proto_msg/Proto_msg.LidarPoints.pb.cc.o\x1b[0m\n'}
+[17.829253] (rslidar_sdk) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/src/msg/proto_msg/Proto_msg.LidarScan.pb.cc.o\x1b[0m\n'}
+[17.829448] (rslidar_sdk) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/rslidar_sdk_node.dir/src/msg/proto_msg/Proto_msg.LidarPacket.pb.cc.o\x1b[0m\n'}
+[17.890154] (-) TimerEvent: {}
+[17.990514] (-) TimerEvent: {}
+[18.091033] (-) TimerEvent: {}
+[18.191370] (-) TimerEvent: {}
+[18.291701] (-) TimerEvent: {}
+[18.392090] (-) TimerEvent: {}
+[18.492634] (-) TimerEvent: {}
+[18.592886] (-) TimerEvent: {}
+[18.693117] (-) TimerEvent: {}
+[18.793389] (-) TimerEvent: {}
+[18.893752] (-) TimerEvent: {}
+[18.994452] (-) TimerEvent: {}
+[19.094827] (-) TimerEvent: {}
+[19.195361] (-) TimerEvent: {}
+[19.295662] (-) TimerEvent: {}
+[19.395935] (-) TimerEvent: {}
+[19.496309] (-) TimerEvent: {}
+[19.596924] (-) TimerEvent: {}
+[19.697518] (-) TimerEvent: {}
+[19.798120] (-) TimerEvent: {}
+[19.898718] (-) TimerEvent: {}
+[19.999404] (-) TimerEvent: {}
+[20.099955] (-) TimerEvent: {}
+[20.200310] (-) TimerEvent: {}
+[20.300970] (-) TimerEvent: {}
+[20.401540] (-) TimerEvent: {}
+[20.502118] (-) TimerEvent: {}
+[20.602527] (-) TimerEvent: {}
+[20.703283] (-) TimerEvent: {}
+[20.803966] (-) TimerEvent: {}
+[20.904650] (-) TimerEvent: {}
+[21.005307] (-) TimerEvent: {}
+[21.105961] (-) TimerEvent: {}
+[21.206619] (-) TimerEvent: {}
+[21.307282] (-) TimerEvent: {}
+[21.407967] (-) TimerEvent: {}
+[21.508322] (-) TimerEvent: {}
+[21.608833] (-) TimerEvent: {}
+[21.709443] (-) TimerEvent: {}
+[21.810077] (-) TimerEvent: {}
+[21.910937] (-) TimerEvent: {}
+[22.011184] (-) TimerEvent: {}
+[22.111478] (-) TimerEvent: {}
+[22.212026] (-) TimerEvent: {}
+[22.312551] (-) TimerEvent: {}
+[22.412930] (-) TimerEvent: {}
+[22.513543] (-) TimerEvent: {}
+[22.614380] (-) TimerEvent: {}
+[22.714979] (-) TimerEvent: {}
+[22.815296] (-) TimerEvent: {}
+[22.915562] (-) TimerEvent: {}
+[23.015835] (-) TimerEvent: {}
+[23.116173] (-) TimerEvent: {}
+[23.216791] (-) TimerEvent: {}
+[23.317380] (-) TimerEvent: {}
+[23.417734] (-) TimerEvent: {}
+[23.518294] (-) TimerEvent: {}
+[23.618656] (-) TimerEvent: {}
+[23.718952] (-) TimerEvent: {}
+[23.819489] (-) TimerEvent: {}
+[23.919750] (-) TimerEvent: {}
+[24.020109] (-) TimerEvent: {}
+[24.120832] (-) TimerEvent: {}
+[24.221359] (-) TimerEvent: {}
+[24.321658] (-) TimerEvent: {}
+[24.422258] (-) TimerEvent: {}
+[24.522578] (-) TimerEvent: {}
+[24.622947] (-) TimerEvent: {}
+[24.723265] (-) TimerEvent: {}
+[24.823614] (-) TimerEvent: {}
+[24.923963] (-) TimerEvent: {}
+[25.024248] (-) TimerEvent: {}
+[25.124660] (-) TimerEvent: {}
+[25.224999] (-) TimerEvent: {}
+[25.325565] (-) TimerEvent: {}
+[25.425883] (-) TimerEvent: {}
+[25.526692] (-) TimerEvent: {}
+[25.627432] (-) TimerEvent: {}
+[25.728270] (-) TimerEvent: {}
+[25.828968] (-) TimerEvent: {}
+[25.929624] (-) TimerEvent: {}
+[26.030096] (-) TimerEvent: {}
+[26.130629] (-) TimerEvent: {}
+[26.231412] (-) TimerEvent: {}
+[26.332079] (-) TimerEvent: {}
+[26.432759] (-) TimerEvent: {}
+[26.533387] (-) TimerEvent: {}
+[26.633988] (-) TimerEvent: {}
+[26.734575] (-) TimerEvent: {}
+[26.835285] (-) TimerEvent: {}
+[26.935742] (-) TimerEvent: {}
+[27.036407] (-) TimerEvent: {}
+[27.137062] (-) TimerEvent: {}
+[27.237644] (-) TimerEvent: {}
+[27.338189] (-) TimerEvent: {}
+[27.438498] (-) TimerEvent: {}
+[27.538758] (-) TimerEvent: {}
+[27.638989] (-) TimerEvent: {}
+[27.739254] (-) TimerEvent: {}
+[27.839527] (-) TimerEvent: {}
+[27.939787] (-) TimerEvent: {}
+[28.040049] (-) TimerEvent: {}
+[28.140316] (-) TimerEvent: {}
+[28.240582] (-) TimerEvent: {}
+[28.340815] (-) TimerEvent: {}
+[28.441091] (-) TimerEvent: {}
+[28.541379] (-) TimerEvent: {}
+[28.641622] (-) TimerEvent: {}
+[28.741876] (-) TimerEvent: {}
+[28.842144] (-) TimerEvent: {}
+[28.942404] (-) TimerEvent: {}
+[29.042668] (-) TimerEvent: {}
+[29.142945] (-) TimerEvent: {}
+[29.243320] (-) TimerEvent: {}
+[29.343720] (-) TimerEvent: {}
+[29.443991] (-) TimerEvent: {}
+[29.544252] (-) TimerEvent: {}
+[29.644478] (-) TimerEvent: {}
+[29.744714] (-) TimerEvent: {}
+[29.844969] (-) TimerEvent: {}
+[29.945233] (-) TimerEvent: {}
+[30.045488] (-) TimerEvent: {}
+[30.145747] (-) TimerEvent: {}
+[30.246011] (-) TimerEvent: {}
+[30.346237] (-) TimerEvent: {}
+[30.446489] (-) TimerEvent: {}
+[30.546745] (-) TimerEvent: {}
+[30.647002] (-) TimerEvent: {}
+[30.747254] (-) TimerEvent: {}
+[30.847516] (-) TimerEvent: {}
+[30.947773] (-) TimerEvent: {}
+[31.048052] (-) TimerEvent: {}
+[31.148329] (-) TimerEvent: {}
+[31.248660] (-) TimerEvent: {}
+[31.348922] (-) TimerEvent: {}
+[31.449181] (-) TimerEvent: {}
+[31.549437] (-) TimerEvent: {}
+[31.649700] (-) TimerEvent: {}
+[31.749981] (-) TimerEvent: {}
+[31.850241] (-) TimerEvent: {}
+[31.950518] (-) TimerEvent: {}
+[32.050800] (-) TimerEvent: {}
+[32.151074] (-) TimerEvent: {}
+[32.251355] (-) TimerEvent: {}
+[32.351621] (-) TimerEvent: {}
+[32.451894] (-) TimerEvent: {}
+[32.552175] (-) TimerEvent: {}
+[32.652453] (-) TimerEvent: {}
+[32.752707] (-) TimerEvent: {}
+[32.852984] (-) TimerEvent: {}
+[32.953274] (-) TimerEvent: {}
+[33.053537] (-) TimerEvent: {}
+[33.153768] (-) TimerEvent: {}
+[33.254035] (-) TimerEvent: {}
+[33.354271] (-) TimerEvent: {}
+[33.454595] (-) TimerEvent: {}
+[33.554838] (-) TimerEvent: {}
+[33.655180] (-) TimerEvent: {}
+[33.755436] (-) TimerEvent: {}
+[33.855692] (-) TimerEvent: {}
+[33.955914] (-) TimerEvent: {}
+[34.056159] (-) TimerEvent: {}
+[34.156391] (-) TimerEvent: {}
+[34.256670] (-) TimerEvent: {}
+[34.356945] (-) TimerEvent: {}
+[34.457201] (-) TimerEvent: {}
+[34.557460] (-) TimerEvent: {}
+[34.657716] (-) TimerEvent: {}
+[34.757971] (-) TimerEvent: {}
+[34.858233] (-) TimerEvent: {}
+[34.958489] (-) TimerEvent: {}
+[35.058775] (-) TimerEvent: {}
+[35.159053] (-) TimerEvent: {}
+[35.259287] (-) TimerEvent: {}
+[35.359557] (-) TimerEvent: {}
+[35.459789] (-) TimerEvent: {}
+[35.560059] (-) TimerEvent: {}
+[35.660323] (-) TimerEvent: {}
+[35.760590] (-) TimerEvent: {}
+[35.860816] (-) TimerEvent: {}
+[35.961064] (-) TimerEvent: {}
+[36.061321] (-) TimerEvent: {}
+[36.161570] (-) TimerEvent: {}
+[36.261838] (-) TimerEvent: {}
+[36.362087] (-) TimerEvent: {}
+[36.462337] (-) TimerEvent: {}
+[36.562597] (-) TimerEvent: {}
+[36.662855] (-) TimerEvent: {}
+[36.763127] (-) TimerEvent: {}
+[36.863381] (-) TimerEvent: {}
+[36.963639] (-) TimerEvent: {}
+[37.063895] (-) TimerEvent: {}
+[37.164150] (-) TimerEvent: {}
+[37.264365] (-) TimerEvent: {}
+[37.364656] (-) TimerEvent: {}
+[37.464915] (-) TimerEvent: {}
+[37.565164] (-) TimerEvent: {}
+[37.665460] (-) TimerEvent: {}
+[37.765732] (-) TimerEvent: {}
+[37.865993] (-) TimerEvent: {}
+[37.966244] (-) TimerEvent: {}
+[38.066586] (-) TimerEvent: {}
+[38.166847] (-) TimerEvent: {}
+[38.267074] (-) TimerEvent: {}
+[38.367303] (-) TimerEvent: {}
+[38.467573] (-) TimerEvent: {}
+[38.567816] (-) TimerEvent: {}
+[38.668109] (-) TimerEvent: {}
+[38.768371] (-) TimerEvent: {}
+[38.868631] (-) TimerEvent: {}
+[38.968857] (-) TimerEvent: {}
+[39.069137] (-) TimerEvent: {}
+[39.169390] (-) TimerEvent: {}
+[39.269641] (-) TimerEvent: {}
+[39.369898] (-) TimerEvent: {}
+[39.470165] (-) TimerEvent: {}
+[39.570437] (-) TimerEvent: {}
+[39.670709] (-) TimerEvent: {}
+[39.770966] (-) TimerEvent: {}
+[39.871239] (-) TimerEvent: {}
+[39.971486] (-) TimerEvent: {}
+[40.071741] (-) TimerEvent: {}
+[40.171991] (-) TimerEvent: {}
+[40.272241] (-) TimerEvent: {}
+[40.372493] (-) TimerEvent: {}
+[40.472771] (-) TimerEvent: {}
+[40.573041] (-) TimerEvent: {}
+[40.673305] (-) TimerEvent: {}
+[40.773594] (-) TimerEvent: {}
+[40.873922] (-) TimerEvent: {}
+[40.974184] (-) TimerEvent: {}
+[41.074444] (-) TimerEvent: {}
+[41.174707] (-) TimerEvent: {}
+[41.274970] (-) TimerEvent: {}
+[41.375230] (-) TimerEvent: {}
+[41.475492] (-) TimerEvent: {}
+[41.575758] (-) TimerEvent: {}
+[41.676039] (-) TimerEvent: {}
+[41.776383] (-) TimerEvent: {}
+[41.876676] (-) TimerEvent: {}
+[41.976956] (-) TimerEvent: {}
+[42.077183] (-) TimerEvent: {}
+[42.177510] (-) TimerEvent: {}
+[42.261794] (rslidar_sdk) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rslidar_sdk_node\x1b[0m\n'}
+[42.277603] (-) TimerEvent: {}
+[42.377965] (-) TimerEvent: {}
+[42.478597] (-) TimerEvent: {}
+[42.579208] (-) TimerEvent: {}
+[42.679800] (-) TimerEvent: {}
+[42.780450] (-) TimerEvent: {}
+[42.880819] (-) TimerEvent: {}
+[42.981367] (-) TimerEvent: {}
+[43.081716] (-) TimerEvent: {}
+[43.182127] (-) TimerEvent: {}
+[43.282703] (-) TimerEvent: {}
+[43.383418] (-) TimerEvent: {}
+[43.484076] (-) TimerEvent: {}
+[43.584798] (-) TimerEvent: {}
+[43.685445] (-) TimerEvent: {}
+[43.786111] (-) TimerEvent: {}
+[43.886748] (-) TimerEvent: {}
+[43.987387] (-) TimerEvent: {}
+[44.088007] (-) TimerEvent: {}
+[44.188654] (-) TimerEvent: {}
+[44.288996] (-) TimerEvent: {}
+[44.389627] (-) TimerEvent: {}
+[44.490259] (-) TimerEvent: {}
+[44.591100] (-) TimerEvent: {}
+[44.691694] (-) TimerEvent: {}
+[44.792430] (-) TimerEvent: {}
+[44.893082] (-) TimerEvent: {}
+[44.993724] (-) TimerEvent: {}
+[45.094347] (-) TimerEvent: {}
+[45.194610] (-) TimerEvent: {}
+[45.294868] (-) TimerEvent: {}
+[45.395131] (-) TimerEvent: {}
+[45.495535] (-) TimerEvent: {}
+[45.596016] (-) TimerEvent: {}
+[45.696690] (-) TimerEvent: {}
+[45.797268] (-) TimerEvent: {}
+[45.897668] (-) TimerEvent: {}
+[45.998224] (-) TimerEvent: {}
+[46.098589] (-) TimerEvent: {}
+[46.199213] (-) TimerEvent: {}
+[46.299834] (-) TimerEvent: {}
+[46.400310] (-) TimerEvent: {}
+[46.501044] (-) TimerEvent: {}
+[46.601714] (-) TimerEvent: {}
+[46.702389] (-) TimerEvent: {}
+[46.803007] (-) TimerEvent: {}
+[46.903626] (-) TimerEvent: {}
+[47.004276] (-) TimerEvent: {}
+[47.104980] (-) TimerEvent: {}
+[47.205664] (-) TimerEvent: {}
+[47.305952] (-) TimerEvent: {}
+[47.406218] (-) TimerEvent: {}
+[47.436872] (rslidar_sdk) StdoutLine: {'line': b'[100%] Built target rslidar_sdk_node\n'}
+[47.440208] (rslidar_sdk) CommandEnded: {'returncode': 0}
+[47.462207] (rslidar_sdk) JobProgress: {'identifier': 'rslidar_sdk', 'progress': 'install'}
+[47.462330] (rslidar_sdk) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/home/tom/rslidar_ws/build/rslidar_sdk'], 'cwd': '/home/tom/rslidar_ws/build/rslidar_sdk', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'tom'), ('LANGUAGE', 'zh_CN:en_US:en'), ('LC_TIME', 'zh_CN.UTF-8'), ('TEXTDOMAIN', 'im-config'), ('XDG_SEAT', 'seat0'), ('SSH_AGENT_PID', '4638'), ('XDG_SESSION_TYPE', 'x11'), ('LD_LIBRARY_PATH', '/home/tom/rslidar_ws/install/rslidar_msg/lib:/usr/local/lib:/opt/ros/eloquent/opt/yaml_cpp_vendor/lib:/opt/ros/eloquent/opt/rviz_ogre_vendor/lib:/opt/ros/eloquent/lib/x86_64-linux-gnu:/opt/ros/eloquent/lib:/usr/local/cuda-10.0/lib64'), ('SHLVL', '1'), ('OLDPWD', '/home/tom/rslidar_ws/src'), ('QT4_IM_MODULE', 'xim'), ('HOME', '/home/tom'), ('DESKTOP_SESSION', 'ubuntu'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('MANAGERPID', '4414'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d9d5dc54b66e188a510ae9fc5f392c26'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '2'), ('ROS_DISTRO', 'eloquent'), ('LOGNAME', 'tom'), ('GTK_IM_MODULE', 'ibus'), ('JOURNAL_STREAM', '9:52540'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig::/usr/local/lib/pkgconfig'), ('USERNAME', 'tom'), ('XDG_SESSION_ID', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/eloquent/bin:/usr/local/cuda-10.0/bin:/home/tom/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('INVOCATION_ID', '0bcb4900aef74c3890002489bae9133a'), ('PAPERSIZE', 'a4'), ('SESSION_MANAGER', 'local/tom-Laptop:@/tmp/.ICE-unix/4548,unix/tom-Laptop:/tmp/.ICE-unix/4548'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/056e7bdf_e991_4620_80a5_ee165cd7057d'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XMODIFIERS', '@im=ibus'), ('GNOME_TERMINAL_SERVICE', ':1.88'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('AMENT_PREFIX_PATH', '/home/tom/rslidar_ws/install/rslidar_msg:/opt/ros/eloquent'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('LC_NAME', 'zh_CN.UTF-8'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('TEXTDOMAINDIR', '/usr/share/locale/'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('XDG_VTNR', '2'), ('QT_IM_MODULE', 'ibus'), ('LC_ALL', 'en_US.UTF-8'), ('PWD', '/home/tom/rslidar_ws/build/rslidar_sdk'), ('CLUTTER_IM_MODULE', 'xim'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=d9d5dc54b66e188a510ae9fc5f392c26'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('PYTHONPATH', '/home/tom/rslidar_ws/install/rslidar_msg/lib/python3.6/site-packages:/opt/ros/eloquent/lib/python3.6/site-packages'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '5202'), ('CMAKE_PREFIX_PATH', '/home/tom/rslidar_ws/install/rslidar_msg:/opt/ros/eloquent')]), 'shell': False}
+[47.464859] (rslidar_sdk) StdoutLine: {'line': b'-- Install configuration: "RELEASE"\n'}
+[47.465092] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_sdk/lib/rslidar_sdk/rslidar_sdk_node\n'}
+[47.466223] (rslidar_sdk) StdoutLine: {'line': b'-- Set runtime path of "/home/tom/rslidar_ws/install/rslidar_sdk/lib/rslidar_sdk/rslidar_sdk_node" to ""\n'}
+[47.466494] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_sdk/share/rslidar_sdk/launch\n'}
+[47.466620] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_sdk/share/rslidar_sdk/launch/start.launch\n'}
+[47.466690] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_sdk/share/rslidar_sdk/launch/start.py\n'}
+[47.466767] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_sdk/share/rslidar_sdk/rviz\n'}
+[47.466831] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz2.rviz\n'}
+[47.466921] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_sdk/share/rslidar_sdk/rviz/rviz.rviz\n'}
+[47.466981] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_sdk/share/ament_index/resource_index/package_run_dependencies/rslidar_sdk\n'}
+[47.467097] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_sdk/share/ament_index/resource_index/parent_prefix_path/rslidar_sdk\n'}
+[47.467200] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.sh\n'}
+[47.467274] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_sdk/share/rslidar_sdk/environment/ament_prefix_path.dsv\n'}
+[47.467352] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_sdk/share/rslidar_sdk/environment/path.sh\n'}
+[47.467427] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_sdk/share/rslidar_sdk/environment/path.dsv\n'}
+[47.467501] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.bash\n'}
+[47.467586] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.sh\n'}
+[47.467670] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.zsh\n'}
+[47.467762] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_sdk/share/rslidar_sdk/local_setup.dsv\n'}
+[47.467852] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_sdk/share/rslidar_sdk/package.dsv\n'}
+[47.467973] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_sdk/share/ament_index/resource_index/packages/rslidar_sdk\n'}
+[47.468099] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig.cmake\n'}
+[47.468182] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_sdk/share/rslidar_sdk/cmake/rslidar_sdkConfig-version.cmake\n'}
+[47.468276] (rslidar_sdk) StdoutLine: {'line': b'-- Installing: /home/tom/rslidar_ws/install/rslidar_sdk/share/rslidar_sdk/package.xml\n'}
+[47.469189] (rslidar_sdk) CommandEnded: {'returncode': 0}
+[47.475778] (rslidar_sdk) JobEnded: {'identifier': 'rslidar_sdk', 'rc': 0}
+[47.477279] (-) EventReactorShutdown: {}

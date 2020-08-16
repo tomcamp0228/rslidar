@@ -1,0 +1,6 @@
+Invoking command in '/home/tom/rslidar_ws/build/rslidar_msg': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/local/bin/cmake /home/tom/rslidar_ws/src/rslidar_msg -DCMAKE_INSTALL_PREFIX=/home/tom/rslidar_ws/install/rslidar_msg
+Invoked command in '/home/tom/rslidar_ws/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/local/bin/cmake /home/tom/rslidar_ws/src/rslidar_msg -DCMAKE_INSTALL_PREFIX=/home/tom/rslidar_ws/install/rslidar_msg
+Invoking command in '/home/tom/rslidar_ws/build/rslidar_msg': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/local/bin/cmake --build /home/tom/rslidar_ws/build/rslidar_msg -- -j12 -l12
+Invoked command in '/home/tom/rslidar_ws/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/local/bin/cmake --build /home/tom/rslidar_ws/build/rslidar_msg -- -j12 -l12
+Invoking command in '/home/tom/rslidar_ws/build/rslidar_msg': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/local/bin/cmake --install /home/tom/rslidar_ws/build/rslidar_msg
+Invoked command in '/home/tom/rslidar_ws/build/rslidar_msg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/eloquent /usr/local/bin/cmake --install /home/tom/rslidar_ws/build/rslidar_msg
